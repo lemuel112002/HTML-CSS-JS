@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML-CSS-JS</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>JS Crash Course</title>
+    <link rel="stylesheet" href="/JavaScript/style.css">
 </head>
+
 <body>
 
-    <!-- container -->
-    <div class="container">
-        <h2>HTML-CSS-JS</h2>
+    <!-- header -->
+    <header>
+        <h1>JS Crash Course</h1>
+    </header>
 
-        <ul id="tasks">
-            <li>Task 1</li>
-            <li>Task 2</li>
-            <li>Task 3</li>
-            <li>Task 4</li>
-            <li>Task 5</li>
-            <li>Task 6</li>
-            <li>Task 7</li>
-            <li>Task 8</li>
-        </ul>
-    </div>
+    <!-- container -->
+    <section class="container">
+        <form action="" id="my-form">
+            <h1>Add Users</h1>
+            <div id="msg"></div>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="text" id="name" placeholder="Name">
+            </div>
     
-    <script src="/script.js"></script>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+    
+            <input class="btn-submit" type="submit" value="Submit">
+
+        </form>
+
+        <ul id="users"></ul>
+
+        <!-- <ul class="items">
+            <li class="item-1">Item 1</li>
+            <li class="item-2">Item 2</li>
+            <li class="item-3">Item 3</li>
+        </ul> -->
+    </section>
+
+    <!-- script -->
+    <script src="/JavaScript/dom.js"></script>
+
 </body>
+
 </html>
