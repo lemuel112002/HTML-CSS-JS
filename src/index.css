@@ -1,0 +1,193 @@
+/* Card */
+.card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.200);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: #252525;
+}
+
+.card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252525;
+}
+
+/* Student */
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.student p {
+  margin: 0;
+}
+
+/* UserGreeting */
+.welcome-message {
+  font-size: 2.5em;
+  background-color: #32CD32;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: #CD3532;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* List */
+.list-category {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #252525;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: #8FFFFF;
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style-type: none;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  background-color: #F0F0F0;
+  cursor: pointer;
+}
+
+/* Counter - useState() */
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display {
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 5px;
+  background-color: #0C9AFF;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: #0080C5;
+}
+
+/* Color Picker */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #F9F9F9;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: #404040;
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid #F8F8F8;
+}
+
+/* Digital Clock */
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.clock-container {
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
+
+.clock {
+  color: #FFF;
+  font-size: 6rem;
+  font-weight: 700;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+  text-align: center;
+}
+
+/* Components */
+.box-component {
+  border: 3px solid #000;
+  padding: 25px;
+}
